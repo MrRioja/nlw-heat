@@ -1,0 +1,4 @@
+.env
+*.lock
+dev.db
+node_modules/
