@@ -8,6 +8,7 @@ import {
 import { Home } from "./src/screens/Home";
 import AppLoading from "expo-app-loading";
 import { StatusBar } from "expo-status-bar";
+import { AuthProvider } from "./src/hooks/auth";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -20,9 +21,9 @@ export default function App() {
   }
 
   return (
-    <>
-      <StatusBar style="light" />
+    <AuthProvider>
+      <StatusBar style="light" backgroundColor="transparent" translucent />
       <Home />
-    </>
+    </AuthProvider>
   );
 }
