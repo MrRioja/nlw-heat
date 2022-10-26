@@ -71,6 +71,7 @@ function AuthProvider({ children }: AuthProviderProps) {
         setUser(user);
       }
     } catch (error) {
+      console.log(error);
     } finally {
       setIsSigningIn(false);
     }
