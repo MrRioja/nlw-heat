@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#nlwheat">NLW Heat</a> •
+  <a href="#nlw-heat">NLW Heat</a> •
   <a href="#instalação">Instalação</a> •
   <a href="#tecnologias">Tecnologias</a> •
   <a href="#autor">Autor</a>  
