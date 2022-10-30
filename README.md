@@ -25,9 +25,38 @@
 
 ## Sobre
 
+Projeto desenvolvido durante a NLW Heat, evento criado pela RocketSeat. Um evento 100% online e GRATUITO, com conteúdo exclusivo e INÉDITO.
+
+Ocorreu do dia 18 ao dia 24 de Outubro de 2021 e teve como intuito mostrar na prática o poder da stack NodeJS + ReactJS + React Native e como essas tecnologias podem te levar até os seus maiores objetivos como programador.
+
 <img src="./readme/wallpaper.png" alt="NLW Heat Wallpaper" />
 
 ## NLW Heat
+
+O NLW Heat foi uma aplicação voltada para o DoWhile 2021 cujo objetivo principal era reproduzir, tanto na web quanto no mobile, os comentários realizados sobre o evento em tempo real.
+O login dos espectadores é feito com a conta do Github e abaixo podemos ver a home da aplicação com o botão para realizar o login para que o usuário possa comentar sobre o evento:
+
+![Home web](./readme/home-web.png)
+
+Após o login feito utilizando a conta do Github, uma caixa de texto é exibida para que o usuário possa registrar seu comentário e torna-lo publico, conforme podemos ver a seguir:
+
+![Home web com login realizado](./readme/home-logged-web.png)
+
+Feito isso o usuário já estará apto a realizar seus comentários que serão exibidos conforme imagem abaixo:
+
+![Home web com comentários](./readme/home-with-message-web.png)
+
+No mobile o comportamento é o mesmo. Inicialmente o usuário terá a opção de login com o Github e o mural com os comentários já enviados por outros usuários:
+
+<img src="./readme/home-mobile.png" alt="Home mobile sem comentários enviados" width="250" />
+
+Após comentários serem enviados por outros usuários, eles já serão disponibilizados nos murais independentemente do login ser realizado ou não, pois o login é necessários apenas para comentar e não para visualizar os comentários, conforme ilustrado a seguir:
+
+<img src="./readme/home-with-message-mobile.png" alt="Home mobile com comentários enviados" width="250" />
+
+Por fim, deixo o GIF abaixo para ilustrar o funcionamento da aplicação de maneira geral:
+
+![Demonstração da aplicação web](./readme/demo-app-web.gif)
 
 ## Instalação
 
